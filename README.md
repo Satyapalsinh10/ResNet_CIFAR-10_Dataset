@@ -60,3 +60,4 @@ python resnet-cifar10/test.py --n 3 --params_path /content/resnet-cifar10/SGD_LR
 
 ## References
 - Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, "Deep residual learning for image recognition," In Proceedings of the IEEE conference on computer vision and pattern recognition, 2016.
+- The code for the ResNet model and CIFAR-10 dataset was adapted from https://github.com/drgripa1/resnet-cifar10.
