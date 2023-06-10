@@ -1,13 +1,19 @@
-# Implementation of ResNet for CIFAR-10 classification
+# Implementing various optimization strategies on ResNet for CIFAR-10 Dataset 
+
+This repository contains the code and instructions for training the ResNet model on the CIFAR-10 dataset using different optimization strategies, namely Stochastic Gradient Descent (SGD), SGD with momentum (with a momentum term of 0.9), and ADAM. The purpose of this experiment is to compare the performance of these optimization methods in terms of training and testing error and loss.
 
 ## Requirements
 - Python 3.6+
 - PyTorch 1.6.0+
+- Numpy
 
-## Usage
+## Paper Implemented
+ResNets paper: https://arxiv.org/pdf/1512.03385.pdf
+
+## Steps to Implement:
 1. Train
 
-```
+```git clone https://github.com/drgripa1/resnet-cifar10.git```
 mkdir path/to/checkpoint_dir
 python train.py --n 3 --checkpoint_dir path/to/checkpoint_dir
 ```
